@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Anterix</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <style>
+	* {box-sizing: border-box;}
+	body {font-family: Verdana, sans-serif;}
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+	
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
+	
+	/* Caption text */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+	
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+	
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+	
+	.dot .active {
+		color: rgb(255, 127, 93);
+	}
+	
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 3s;
+	  animation-name: fade;
+	  animation-duration: 3s;
+	}
+	
+	@-webkit-keyframes fade {
+	  from {opacity: 0} 
+	  to {opacity: 1}
+	}
+	
+	@keyframes fade {
+	  from {opacity: 0} 
+	  to {opacity: 1}
+	}
+	
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+	</style>
+</head>
+
+<body>
+  <div id="progressbar"></div>
+	<div id="scrollPath"></div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" style="background-image:url('aboutus.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: black;">
+    <div class="hero-container " >
+      <h1>AnteriX Club</h1>
+      <h2> Enabling students to gain knowledge and experience in the field of
+		Aviation and Space technologies.</h2>
+      <a href="#about" class="btn-get-started scrollto">Join Us</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
+
+
+
+      <a href="index.html" class="logo me-auto me-lg-0" ><div style="width: 70%; height: 20%; object-fit: cover;"><img src="Logo_w_Shadow.png"   alt="Anterix Logo" class="img-fluid"></div></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about_us.html">About Us</a></li>
+       
+          
+          <li class="dropdown"><a class="nav-link scrollto active" id="depart" ><span >Departments</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li ><a href="Tech_dept.html" id="drop">Technical Departments</a></li>
+              <li ><a href="Non_Tech_Dept.html" id="drop">Non Technical Departments</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="contact.html">Contact Us</a></li>
+          <li><a class="nav-link scrollto" target="_blank" href="https://vitbhopal.ac.in/">VIT BHOPAL</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <a href="https://twitter.com/AnterixClub?s=08" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://instagram.com/anterix.vitb?utm_medium=copy_link" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/club-anterix-2021/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://discord.gg/bqsnyk2Q" class="discord"><i class="bx bxl-discord"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+  
+  <main id="main" style="background-color: black;display:flex;flex-direction:column;justify-content:center;align-items:center">
+    <h3 style="color:white;  font-weight: 600;font-family: Poppins, sans-serif;margin:7% 0%">SOFTWARE DEVELOPMENT CELL</h3>
+  <table class="table table-dark table-striped" style="margin-bottom:15%;width:70%">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Name</th>
+        <th scope="col">Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Vineet khola</td>
+        <td>Co-Head (Solution Expert)</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Aaabir Datta</td>
+        <td>Co-Head (Solution Expert)</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Swasti Trivedi</td>
+        <td>Co-Head (Reports Collection)</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Aditya Patil</td>
+        <td>Co-Head (Content Direction)</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Annika Chandra</td>
+        <td>Co-Head (Content Direction)</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Rishita Shrivastava</td>
+        <td>Co-Head (Web Development)</td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Amulya Dixit</td>
+        <td>Co-Head (Web Development)</td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>Yatharth Shah</td>
+        <td>Member</td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td>Karan Jain</td>
+        <td>Member</td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td>Ashwin R</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">11</th>
+        <td>Pranav Sharma</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">12</th>
+        <td>Nikhil Kumar Das</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">13</th>
+        <td>Shekhar Sharma</td>
+        <td>Member</td>
+      </tr>
+      <tr>
+        <th scope="row">14</th>
+        <td>Kanak Sengar</td>
+        <td>Member</td>
+      </tr>
+    </tr>
+    <tr>
+      <th scope="row">15</th>
+      <td>Vaghasia Aum</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+      <th scope="row">16</th>
+      <td>Dhananjay Arne</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th scope="row">17</th>
+      <td>Anant Chauhan</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th scope="row">18</th>
+      <td>Jayant Verma</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th scope="row">19</th>
+      <td>Aman Singh</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>  
+      <th scope="row">20</th>
+      <td>Ameya Shrikant</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th scope="row">21</th>
+      <td>Rudransh Khandelwal</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <th scope="row">22</th>
+      <td>Abhishek Kumar</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">23</th>
+      <td>Monil Gandhi</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+      <th scope="row">24</th>
+      <td>Hari Sumant</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">25</th>
+      <td>Rishabh Rathi</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">26</th>
+      <td>Yash shukla</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">27</th>
+      <td>Khushal Dubey</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">28</th>
+      <td>Akaash Sharma</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">29</th>
+      <td>Vibhav Kumar Singh</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">30</th>
+      <td>Shubhi Choubey</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">31</th>
+      <td>Nitin Gulwani</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">32</th>
+      <td>Sheril Rastogi</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">33</th>
+      <td>Varnika Rathee</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">34</th>
+      <td>Ujjwal Tajne</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">35</th>
+      <td>Aviral Srivastava</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">36</th>
+      <td>Rayala Shriram</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">37</th>
+      <td>Shreyam Mukherjee</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">38</th>
+      <td>Nisha Prakash</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">39</th>
+      <td>Jaideep singh</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">40</th>
+      <td>Aayushi Srivastava</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      <th scope="row">41</th>
+      <td>Veeraboina G</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+      <th scope="row">42</th>
+      <td>Prakashini Shrivastava</td>
+      <td>Member</td>
+    </tr>
+    <tr>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+
+<footer id="footer" style="background-image: url('assets/img/footer.PNG'); background-size: cover;">
+
+  <div class="footer-top">
+
+    <div class="container">
+
+      <div class="row  justify-content-center">
+        <div class="col-lg-12">
+          <div  ><img id="footerLogo" src="assets\img\footer Logo.png"  alt="Footer Logo"></div>
+    <div class="social-links">
+      <a href="https://twitter.com/AnterixClub?s=08" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="https://instagram.com/anterix.vitb?utm_medium=copy_link" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/club-anterix-2021/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <a href="https://discord.gg/bqsnyk2Q" class="discord"><i class="bx bxl-discord"></i></a>
+      </div>
+      <br>
+    <div  ><img id="footervit" src="assets/img/vitbwhite.png"  alt="VIT Bhopal Logo"></div>
+  
+          <h6>ABOUT VIT BHOPAL</h6> <p>  VIT Bhopal University, located at the Bhopal-Indore highway, an arterial street connecting the two most lovely and cleanest towns of India is a place where information meets motivation. VIT Bhopal University imparts futuristic technical education and inculcate high patterns of discipline through dedicated faculty, who set global standards, making students technologically advanced and ethically strong, who in turn enhance the quality of life of the human race.</p>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+  <div class="container footer-bottom clearfix">
+    <div class="copyright">
+      &copy; Copyright <strong><span>ANTERiX</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/valera-free-bootstrap-theme/ -->
+      Designed by <a href="https://bootstrapmade.com/">SDC, Club ANTERiX</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+
+  <script>
+	var slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+		setTimeout(showSlides, 3000);
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	   // Change image every 2 seconds
+	}
+	</script>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
